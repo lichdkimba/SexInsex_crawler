@@ -17,6 +17,8 @@ headers["Accept-Encoding"] = "gzip, deflate"
 headers["Accept-Language"] = "zh-TW,zh;q=0.8,en-US;q=0.6,en;q=0.4,zh-CN;q=0.2"
 request_retry = HTTPAdapter(max_retries=3)
 raw_cookies = "__utma=1.370745750.1492854006.1492982897.1493033367.10;__utmb=1.9.10.1493033367;__utmc=1;__utmt=1;__utmz=1.1492854006.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none);cdb3_auth=ktPyW1g94sPFPJa%2F%2BW3BDIzJj9%2FkryGbWybjPbEfjvVhPQabIfDeUhsvfAzjsMjOjr8;cdb3_cookietime=2592000;cdb3_fid421=1493031082;cdb3_oldtopics=D7100968D6803533D;cdb3_sid=klJAVc;cdb3_smile=1D1;"
+
+#登录表单
 post_data = {
     "formhash": "5340e0fa",
     "referer": "index.php",
